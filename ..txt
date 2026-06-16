@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -76,10 +72,10 @@ nav{
     gap: 30px;
     
     p{
-     line-height: 1.8;
-     color: #747474;
-     font-size: 16px;
-  }
+    line-height: 1.8;
+    color: #747474;
+    font-size: 16px;
+}
 }
 .paragraph-left,
 .paragraph-right{
@@ -97,12 +93,12 @@ nav{
     
     h1{
     margin:15px 0;
-  }
+}
      h2{
     font-size:24px;
     font-weight:300;
     line-height:1.3;
-  }
+}
 }
 .card-1,
 .card-2,
@@ -145,7 +141,7 @@ nav{
     line-height:1.4;
 
     flex:1;
-  }
+}
 }
 
 .brands-logos{
@@ -162,91 +158,14 @@ nav{
     li{
     display:flex;
     align-items:center;
-  }
+}
 
     img{
     width:120px;
     opacity:0.5;
 
     transition:0.3s;
-  }
 }
 .brands-logos img:hover{
     transform: scale(1.2);
- }
-
-
-.stats-section {
-    background-color: #c9f6f0;
-    
-    
- }
-
- .stats-container{
-    
-    display: flex;
-    gap: 50px;
-    width: 80%;
-    margin: 50px auto;
-    background-color: #747474;
-    
- }
- 
- .stats-intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: end; 
-    background-color: #3d83df; 
- }
-
- .stats-grid{
-    display: flex;
-    gap: 10px;
-    
- }
-
-
- .grid-1{
-    background-color: chartreuse;
-
 }
-    
-
- .grid-2{
-   background-color: gold;
-   
- }
-
-.stats-card-1{
-    
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     margin-top: 10px;
-
-}
-.stats-card-2{
-    
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     margin-top: 10px;
-
-}
-.stats-card-3{
-    
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     
-
-}
-.stats-card-4 {
-
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     
-    
-} 
-
