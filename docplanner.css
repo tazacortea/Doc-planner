@@ -90,6 +90,8 @@ nav{
     margin: 50px auto;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     color: white;
 
@@ -107,18 +109,20 @@ nav{
 .card-1,
 .card-2,
 .card-3{
-    flex: 1;
+    
     padding:30px;
     border-radius:10px;
+    height: 300px; ;
+    width: 300px;
 
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    
-
-    
-    
+    gap: 10PX;
+     
 }
+
+
 .card-1{
     background-color:#00ccb1;
 }
@@ -131,6 +135,7 @@ nav{
     background-color:#1b2734;
 }
  
+
 
 .brands{
     width: 80%;
@@ -145,7 +150,7 @@ nav{
     line-height:1.4;
 
     flex:1;
-  }
+   }
 }
 
 .brands-logos{
@@ -171,82 +176,126 @@ nav{
     transition:0.3s;
   }
 }
+
 .brands-logos img:hover{
     transform: scale(1.2);
  }
 
 
+
+
 .stats-section {
-    background-color: #c9f6f0;
-    
+    background-color: #e5faf8;
     
  }
 
- .stats-container{
-    
+
+.stats-container{
     display: flex;
     gap: 50px;
     width: 80%;
-    margin: 50px auto;
-    background-color: #747474;
+    margin: 70px auto;
     
  }
  
- .stats-intro{
+.stats-intro{
     display: flex;
     flex-direction: column;
     justify-content: end; 
-    background-color: #3d83df; 
+    gap: 25px;
+    font-family: Work Sans, Arial, sans-serif;
+
+    h1 {
+       color:#04bea6
+    }
+    
  }
 
- .stats-grid{
+.stats-grid {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    
     
  }
 
-
- .grid-1{
-    background-color: chartreuse;
-
-}
+.grid-1{
     
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
 
- .grid-2{
-   background-color: gold;
+.grid-2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
    
- }
 
 .stats-card-1{
     
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     margin-top: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #0000000d;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+     
 
 }
 .stats-card-2{
     
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     margin-top: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #0000000d;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+
+     
 
 }
 .stats-card-3{
     
-     height: 250px;
-     width: 250px;
-     background-color: azure;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #0000000d;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+
      
 
 }
 .stats-card-4 {
 
-     height: 250px;
-     width: 250px;
-     background-color: azure;
-     
-    
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #0000000d;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+      
 } 
 
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 80px;
+  
+    p{
+        line-height: 25px;
+    }
+}
