@@ -486,5 +486,10 @@ footer{
     display: flex;
     justify-content: center;
     gap: 5px;
+    
+
+}
+
+a{
     text-decoration: none;
 }
